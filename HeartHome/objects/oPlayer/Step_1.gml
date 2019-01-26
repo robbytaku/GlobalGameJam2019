@@ -19,13 +19,13 @@ if (hascontrol)
 			controller = 1;
 		}
 		
-		if (gamepad_button_check_pressed(0,gp_padl))
+		if (gamepad_button_check(0,gp_padl))
 		{
 			key_left = 1;
 			controller = 1;
 		}
 		
-		if (gamepad_button_check_pressed(0,gp_padr))
+		if (gamepad_button_check(0,gp_padr))
 		{
 			key_right = 1;
 			controller = 1;
@@ -59,7 +59,8 @@ vsp += grv;
 
 if (place_meeting(x,y+1,oWall)) and (key_jump) 
 {
-	vsp = -7;
+	idletimer = 0;
+	vsp = -6;
 }
 
 //Horizontal Collision
@@ -87,7 +88,7 @@ if (place_meeting(x,y+vsp,oWall))
 y += vsp;
 
 //Animation
-if (!place_meeting(x,y+1,oWall))
+if (!place_meeting(x,y+1,oWall)) and (idletimer < 120)
 {
 	sprite_index = sPlayerA;
 	image_speed = 0;
@@ -96,7 +97,7 @@ if (!place_meeting(x,y+1,oWall))
 else 
 {
 	image_speed = 1;
-	if (hsp == 0)
+	if (hsp == 0) and (idletimer < 120)
 	{
 		sprite_index = sPlayer;
 	}
@@ -106,5 +107,17 @@ else
 	}
 }
 
-if (hsp != 0) image_xscale = sign(hsp);
+
+if (hsp != 0) 
+{
+	idletimer = 0;
+	image_xscale = sign(hsp);
+}
+
+idletimer++;
+if (idletimer >= 120) 
+{
+	image_speed = 1;
+	sprite_index = sPlayerI;
+}
 

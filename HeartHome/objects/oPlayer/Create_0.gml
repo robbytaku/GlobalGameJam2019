@@ -5,3 +5,4 @@ walksp = 3;
 controller = 0;
 hascontrol = true;
 flashback = -300;
+idletimer = 0;
