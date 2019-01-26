@@ -5,7 +5,8 @@ charCount++;
 textPart = string_copy(text[page],1,charCount);
 draw_text_ext(620, 180, textPart, 60, 700);
 
-if gamepad_button_check_pressed(0,gp_face1)
+
+if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(4,gp_face1)) and string_length(text[page]) <= charCount)
 {
 	if (page < array_length_1d(text)-1) 
 	{
@@ -19,3 +20,4 @@ if gamepad_button_check_pressed(0,gp_face1)
 		instance_destroy();
 	}
 }
+if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(4,gp_face1)) and string_length(text[page]) > charCount) charCount = string_length(text[page]);

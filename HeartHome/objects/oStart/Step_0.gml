@@ -15,7 +15,7 @@ if (gamepad_button_check_pressed(0, gp_padu)) or (gamepad_button_check_pressed(0
 	oExit.selected *= -1;
 }
 
-if ((abs(gamepad_axis_value(0,gp_axislv)) > 0.2) and axispressed = false)
+if ((abs(gamepad_axis_value(0,gp_axislv)) > 0.2) and axispressed == false)
 {
 	axispressed = true;
 	selected *= -1;
@@ -23,7 +23,15 @@ if ((abs(gamepad_axis_value(0,gp_axislv)) > 0.2) and axispressed = false)
 }
 if ((abs(gamepad_axis_value(0,gp_axislv)) <= 0.2)) axispressed = false;
 
-if (gamepad_button_check_pressed(0,gp_face1) or keyboard_check_pressed(vk_space))
+if ((abs(gamepad_axis_value(4,gp_axislv)) > 0.2)) and axispressedgh == false
+{
+	axispressedgh = true;
+	selected *= -1;
+	oExit.selected *= -1;
+}
+if (abs((gamepad_axis_value(4,gp_axislv))) <= 0.2) axispressedgh = false
+
+if (gamepad_button_check_pressed(0,gp_face1) or keyboard_check_pressed(vk_space)) or (gamepad_button_check_pressed(4,gp_face1))
 {
 	if (selected == 1)
 	{

@@ -19,27 +19,47 @@ if (hascontrol)
 			controller = 1;
 		}
 		
-		if (gamepad_button_check(0,gp_padl))
+		if (gamepad_button_check(0,gp_padl)) 
 		{
 			key_left = 1;
 			controller = 1;
 		}
 		
-		if (gamepad_button_check(0,gp_padr))
+		if (gamepad_button_check(0,gp_padr)) 
 		{
 			key_right = 1;
 			controller = 1;
 		}
 
-		if (gamepad_button_check_pressed(0,gp_face1))
+		if (gamepad_button_check_pressed(0,gp_face1)) 
 		{
 			key_jump = 1;
 			controller = 1;
 		}
-		if (gamepad_button_check_pressed(0,gp_face3))
+		if (gamepad_button_check_pressed(0,gp_face3)) 
 		{
 			key_interact = 1;
 			controller = 1;
+		}
+		if (gamepad_axis_value(4,gp_axislv) > 0.2)
+		{
+			key_left = 1;
+			controller = 2;
+		}
+		if (gamepad_axis_value(4,gp_axislv) < -0.2)
+		{
+			key_right = 1;
+			controller = 2;
+		}
+		if (gamepad_button_check(4,gp_face1))
+		{
+			key_jump = 1;
+			controller = 2;
+		}
+		if (gamepad_button_check(4,gp_face3))
+		{
+			key_interact = 1;
+			controller = 2;
 		}
 	}
 }

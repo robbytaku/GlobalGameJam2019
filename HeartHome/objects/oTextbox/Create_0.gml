@@ -1,3 +1,4 @@
+textPart = "test";
 charCount = 0;
 oPlayer.hascontrol = false;
 text = oTextboxTrigger.text;
