@@ -3,7 +3,7 @@
 //Update destination
 if (instance_exists(follow))
 {
-	xTo = follow.x - 300;
+	xTo = follow.x + oPlayer.flashback;
 	yTo = follow.y - 300;
 }
 
