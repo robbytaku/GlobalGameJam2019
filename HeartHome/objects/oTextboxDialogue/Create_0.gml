@@ -1,2 +1,2 @@
-target = room;
-text[0] = "default";
+target = 0;
+text[0] = "empty";
