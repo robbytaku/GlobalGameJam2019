@@ -1,4 +1,4 @@
-draw_sprite(sTrigger,1,x,y);
+draw_sprite(sprite,1,x,y);
 if (place_meeting(x,y,oPlayer))
 {
 	if ((oPlayer.controller) == 0) draw_sprite(sE,1,x,y-64);
