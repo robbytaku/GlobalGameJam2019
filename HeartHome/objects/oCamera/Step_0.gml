@@ -3,8 +3,8 @@
 //Update destination
 if (instance_exists(follow))
 {
-	xTo = follow.x;
-	yTo = follow.y;
+	xTo = follow.x - 300;
+	yTo = follow.y - 300;
 }
 
 //Update object position
