@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "35e63c32-c82b-44e4-935c-0fc5a2ae469a",
+            "Value": {
+                "id": "18f89c7b-f9f3-4055-bc30-16b0b3071544",
+                "resourcePath": "sprites\\sTestface\\sTestface.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39a22ace-c7d4-47a3-a553-a0accc1522c5",
             "Value": {
                 "id": "90c45c88-1a8b-4098-bacc-3670afec460d",
@@ -228,6 +236,14 @@
                 "id": "c5bcbd5a-7359-40ae-88d2-2e8a5324e207",
                 "resourcePath": "tilesets\\tTiles\\tTiles.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "8bbffad1-7fda-47ec-9fc6-9b54774c3a0a",
+            "Value": {
+                "id": "ffbb84e7-f5d8-4db1-85eb-b01ff9a6a52a",
+                "resourcePath": "objects\\oTextboxDialogue\\oTextboxDialogue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -396,6 +412,14 @@
                 "id": "e0b5febc-5629-4942-a338-ef65c8cea742",
                 "resourcePath": "scripts\\DreamTransition\\DreamTransition.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ed476b7b-f9b9-41c6-a76f-502af1e9427c",
+            "Value": {
+                "id": "428589e8-1865-4d15-beb5-739281510148",
+                "resourcePath": "objects\\oTextboxFace\\oTextboxFace.yy",
+                "resourceType": "GMObject"
             }
         },
         {

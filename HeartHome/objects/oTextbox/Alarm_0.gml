@@ -1,0 +1,1 @@
+charCount = string_length(text[page]);

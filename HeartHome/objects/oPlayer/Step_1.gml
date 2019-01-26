@@ -51,12 +51,12 @@ if (hascontrol)
 			key_right = 1;
 			controller = 2;
 		}
-		if (gamepad_button_check(4,gp_face1))
+		if (gamepad_button_check_pressed(4,gp_face1))
 		{
 			key_jump = 1;
 			controller = 2;
 		}
-		if (gamepad_button_check(4,gp_face3))
+		if (gamepad_button_check_pressed(4,gp_face3))
 		{
 			key_interact = 1;
 			controller = 2;

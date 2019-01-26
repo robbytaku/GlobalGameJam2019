@@ -1,4 +1,5 @@
 draw_sprite(sTextbox, 0, 960, 300);
+draw_sprite(sTestface,0,320, 300);
 draw_set_font(fSketch);
 draw_set_color(c_white);
 charCount++;
@@ -15,7 +16,7 @@ if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1
 	}
 	else 
 	{
-		DreamTransition(TRANS_MODED.GOTO,target);
+		oPlayer.hascontrol = true;
 		instance_destroy();
 	}
 }
