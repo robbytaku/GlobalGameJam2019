@@ -2,7 +2,7 @@
     "id": "39a22ace-c7d4-47a3-a553-a0accc1522c5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oTransition",
+    "name": "oTransitionBB",
     "eventList": [
         {
             "id": "68b9fe58-0a05-4017-9453-7550e1eb0324",
