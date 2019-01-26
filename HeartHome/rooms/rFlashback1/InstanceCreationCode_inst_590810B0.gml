@@ -1,4 +1,4 @@
-target = rMenu;
+target = rOne;
 text[0] = "DUDE WHAT THE FUCK IS UP!";
 text[1] = "THIS ONE SAYS SOMETHING DIFFERENT!";
 text[2] = "HOW, YOU MIGHT ASK?";
