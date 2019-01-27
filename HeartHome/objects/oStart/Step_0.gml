@@ -35,7 +35,7 @@ if (gamepad_button_check_pressed(0,gp_face1) or keyboard_check_pressed(vk_space)
 {
 	if (selected == 1)
 	{
-		DreamTransition(TRANS_MODED.GOTO,rOne);
+		DreamTransition(TRANS_MODED.NEXT);
 	}
 	else
 	{

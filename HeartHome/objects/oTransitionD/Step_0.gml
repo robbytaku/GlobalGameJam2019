@@ -4,11 +4,11 @@ if (mode != TRANS_MODED.OFF)
 {
 	if (mode == TRANS_MODED.INTRO)
 	{
-		percent -= 0.01;
+		percent -= 0.02;
 	}
 	else
 	{
-		percent += 0.01;
+		percent += 0.02;
 	}
 	
 	if (percent == 1.1) or (percent == 0)

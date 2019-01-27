@@ -7,4 +7,4 @@ xTo = xstart;
 yTo = ystart;
 
 x = oPlayer.x + oPlayer.flashback;
-y = oPlayer.y - 300;
+y = oPlayer.y - 200;

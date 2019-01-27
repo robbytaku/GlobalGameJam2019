@@ -18,7 +18,7 @@ if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1
 	{
 		if (target == 0)
 		{
-			oPlayer.hascontrol = true;
+			if (instance_exists(oPlayer)) oPlayer.hascontrol = true;
 			
 		}
 		else

@@ -1,5 +1,5 @@
 textPart = "test";
 charCount = 0;
-oPlayer.hascontrol = false;
+if (instance_exists(oPlayer)) oPlayer.hascontrol = false;
 page = 0;
 target = 0;
