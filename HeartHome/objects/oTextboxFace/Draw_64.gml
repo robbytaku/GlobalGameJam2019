@@ -1,5 +1,4 @@
 draw_sprite(sTextbox, 0, 960, 300);
-draw_sprite(sTestface,0,320, 300);
 draw_set_font(fSketch);
 draw_set_color(c_white);
 charCount++;
