@@ -10,14 +10,11 @@ if (count == 2)
 {
 	draw_sprite(sprite3,0,0,0);
 }
-if (count == 3)
+
+if (count >= 3)
 {
 	draw_sprite(sprite4,0,0,0);
-}
-if (count >= 4)
-{
-	draw_sprite(sprite5,0,0,0);
-	if (!instance_exists(oTextboxFace) and (count == 4))
+	if (!instance_exists(oTextboxFace) and (count == 3))
 	{
 		alarm[0] = 2;
 	}

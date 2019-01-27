@@ -7,4 +7,3 @@ sprite1 = sTestScene51;
 sprite2 = sTestScene52;
 sprite3 = sTestScene53;
 sprite4 = sTestScene54;
-sprite5 = sTestScene55;
