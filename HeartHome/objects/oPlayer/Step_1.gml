@@ -79,7 +79,6 @@ vsp += grv;
 
 if (place_meeting(x,y+1,oWall)) and (key_jump) 
 {
-	idletimer = 0;
 	vsp = -24;
 }
 
@@ -108,7 +107,7 @@ if (place_meeting(x,y+vsp,oWall))
 y += vsp;
 
 //Animation
-if (!place_meeting(x,y+1,oWall)) and (idletimer < 120)
+if (!place_meeting(x,y+1,oWall))
 {
 	sprite_index = sPlayerA;
 	image_speed = 0;
@@ -117,7 +116,7 @@ if (!place_meeting(x,y+1,oWall)) and (idletimer < 120)
 else 
 {
 	image_speed = 1;
-	if (hsp == 0) and (idletimer < 120)
+	if (hsp == 0)
 	{
 		sprite_index = sPlayer;
 	}
@@ -130,14 +129,5 @@ else
 
 if (hsp != 0) 
 {
-	idletimer = 0;
 	image_xscale = sign(hsp);
 }
-
-idletimer++;
-if (idletimer >= 120) 
-{
-	image_speed = 1;
-	sprite_index = sPlayerI;
-}
-

@@ -1,3 +1,3 @@
-sprite = sCap;
+sprite = sGameboy;
 target = rCutscene4;
-text[0] = "Dad's baseball cap.";
+text[0] = "Brother's gaming console.";

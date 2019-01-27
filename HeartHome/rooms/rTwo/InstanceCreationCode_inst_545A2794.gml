@@ -1,3 +1,3 @@
-sprite = sCap;
+sprite = sMirror;
 target = rCutscene3;
-text[0] = "Dad's baseball cap.";
+text[0] = "Mom's mirror.";
