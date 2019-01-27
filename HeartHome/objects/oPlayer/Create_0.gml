@@ -1,7 +1,7 @@
 hsp = 0;
 vsp = 0;
 grv = 1.5;
-walksp = 6;
+walksp = 8;
 controller = 0;
 hascontrol = true;
 flashback = -300;

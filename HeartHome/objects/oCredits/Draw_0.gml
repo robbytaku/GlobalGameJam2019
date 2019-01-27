@@ -4,7 +4,7 @@ draw_set_font(fSketch);
 draw_set_color(c_black);
 draw_set_halign(fa_center);
 draw_text(x,y + 72 + 72,"CREATED BY:");
-draw_text(x,y + 72 + 72 + 72,"Robby - Producer");
+draw_text(x,y + 72 + 72 + 72,"Robby - Producer, Level Designer");
 draw_text(x,y + 72 + 72 + 72 + 72,"Vladimir - Head Programmer");
 draw_text(x,y + 72 + 72 + 72 + 72 + 72,"Christopher - Head Artist");
 draw_text(x,y + 72 + 72 + 72 + 72 + 72 + 72,"Flo - Artist");
