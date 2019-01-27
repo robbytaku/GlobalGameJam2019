@@ -1,6 +1,5 @@
 target = rOne;
-text[0] = "the dog is fucking dead.";
-text[1] = "deal with it.";
-text[2] = "fucker.";
-text[3] = "dumbass.";
-text[4] = "fuck you.";
+text[0] = "oh fuck we left our dog behind.!!!!";
+sprite1 = sTestScene11;
+sprite2 = sTestScene12;
+sprite3 = sTestScene13;

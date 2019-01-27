@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "16d12417-5284-4d23-844e-02bd1399f29d",
+            "Value": {
+                "id": "ab7c3203-7221-4e88-ad25-f6cefefc6cf8",
+                "resourcePath": "sprites\\sTestScene11\\sTestScene11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "231405b2-85f1-4fd8-8dca-71f2161ec6b7",
             "Value": {
                 "id": "4fad9ccc-9a76-46a8-8d54-81494cafffd2",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "b709384d-65f7-4f89-be14-59376dff9998",
+            "Value": {
+                "id": "d92e12d8-e537-4a39-9c73-93963cf3ade0",
+                "resourcePath": "sprites\\sTestScene12\\sTestScene12.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb3e75a5-c222-4a4d-bf4b-9470a3c5be07",
             "Value": {
                 "id": "c975d96c-2468-4131-b73e-b2b35901a437",
@@ -428,6 +444,14 @@
                 "id": "22884947-b694-4fd1-9ee6-a1c3c0360873",
                 "resourcePath": "objects\\oExit\\oExit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bd00d86b-3860-455a-b6e0-4926d8dd4cf9",
+            "Value": {
+                "id": "f9780f53-f388-4510-a4c3-be968869e791",
+                "resourcePath": "views\\bd00d86b-3860-455a-b6e0-4926d8dd4cf9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -551,6 +575,14 @@
             }
         },
         {
+            "Key": "f3e37471-405f-44f5-bf3e-0e587d9465fb",
+            "Value": {
+                "id": "cea96b93-dfc6-41f7-8e77-5929c9d2b984",
+                "resourcePath": "sprites\\sTestScene13\\sTestScene13.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "0ff86a20-9b20-4e91-b54b-62ef43886aaa",
@@ -564,6 +596,14 @@
                 "id": "5e58cc50-9d5f-4109-81ea-8041ee9d5fe8",
                 "resourcePath": "sprites\\sQuitS\\sQuitS.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f68f9b58-ae3b-4679-82a5-b6ea11344d1a",
+            "Value": {
+                "id": "4636c7da-7542-4004-9887-11a094e50c0a",
+                "resourcePath": "objects\\oCutsceneA\\oCutsceneA.yy",
+                "resourceType": "GMObject"
             }
         },
         {
