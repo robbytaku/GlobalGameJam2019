@@ -1,0 +1,11 @@
+target = rCredits;
+text[0] = "the";
+text[1] = "dog";
+text[2] = "is";
+text[3] = "fucking";
+text[4] = "dead.";
+sprite1 = sTestScene61;
+sprite2 = sTestScene62;
+sprite3 = sTestScene63;
+sprite4 = sTestScene64;
+sprite5 = sTestScene65;

@@ -5,6 +5,6 @@ with (oPlayer)
 	if (hascontrol)
 	{
 		hascontrol = false;
-		SlideTransition(TRANS_MODE.GOTO,room);
+		SlideTransition(TRANS_MODE.GOTO,other.room_move);
 	}
 }
