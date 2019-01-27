@@ -80,7 +80,7 @@ vsp += grv;
 if (place_meeting(x,y+1,oWall)) and (key_jump) 
 {
 	idletimer = 0;
-	vsp = -8;
+	vsp = -24;
 }
 
 //Horizontal Collision

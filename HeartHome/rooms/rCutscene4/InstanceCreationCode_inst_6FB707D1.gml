@@ -1,6 +1,6 @@
 target = rFour;
-text[0] = "the dog is fucking dead.";
-text[1] = "deal with it.";
-text[2] = "fucker.";
-text[3] = "dumbass.";
-text[4] = "fuck you.";
+text[0] = "At least someone understands me.";
+text[1] = "I know she doesn't.";
+sprite1 = sTestScene41;
+sprite2 = sTestScene42;
+sprite3 = sTestScene43;
