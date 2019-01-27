@@ -131,3 +131,5 @@ if (hsp != 0)
 {
 	image_xscale = sign(hsp);
 }
+
+if(gamepad_button_check_pressed(4,gp_face2)) oWall.visible = !oWall.visible;

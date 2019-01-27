@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0c70fc17-847f-49a9-9092-0af54cfbe9ae",
+            "Value": {
+                "id": "a8a530ed-095d-4666-a6f7-be6c517e74f5",
+                "resourcePath": "rooms\\rThree\\rThree.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0cbf3565-2186-44be-9b3d-eac99dae13ea",
             "Value": {
                 "id": "8cb22e16-1c67-4f77-8393-f4061736867c",
@@ -223,14 +231,6 @@
             }
         },
         {
-            "Key": "30d79dac-6c99-499a-bd64-940efa5979f8",
-            "Value": {
-                "id": "77276ee3-67be-466b-b30c-83ad2e9df178",
-                "resourcePath": "rooms\\rThree\\rThree.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "32b8c2e0-939c-473f-b2d6-1515250bcdb5",
             "Value": {
                 "id": "6f5bafdb-ac88-46ba-a13a-e0bb94fa1ecd",
@@ -315,6 +315,14 @@
             "Value": {
                 "id": "56988b6f-1007-4eb4-98cc-654f447a5467",
                 "resourcePath": "sprites\\foreground_3\\foreground_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "478c4aaf-7dbd-4098-b58d-6b837ecf4440",
+            "Value": {
+                "id": "acd32879-d73c-4297-b7f8-fb8561aa9e8f",
+                "resourcePath": "sprites\\suburb_city_scenery_2\\suburb_city_scenery_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -812,6 +820,14 @@
                 "id": "a44a84a1-0073-4181-b5ad-132c9dabdb7d",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cdd225d2-443f-4d85-a56c-b7e36cbba6aa",
+            "Value": {
+                "id": "c3836675-4045-4d85-99ca-53601c699cf6",
+                "resourcePath": "sprites\\car_543\\car_543.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
