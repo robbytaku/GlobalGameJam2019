@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "6bcf9a71-4f17-4d51-8370-b825cd13b6dc",
+            "Value": {
+                "id": "5ddc55fa-8c11-4182-a147-c529b18eae67",
+                "resourcePath": "sprites\\city_scenery_1\\city_scenery_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6cf48f19-49e4-47e3-976a-9cbf6f3c05fc",
             "Value": {
                 "id": "f045d929-2181-42bd-8a4b-0af31c75fbbd",
@@ -923,6 +931,14 @@
             "Value": {
                 "id": "ca724a9f-b46d-438d-9822-788e516f4b0d",
                 "resourcePath": "sprites\\pubg\\pubg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ad34be51-d9f3-4517-b807-562e56356742",
+            "Value": {
+                "id": "28cc4c70-af5b-4bc6-8256-98d437611215",
+                "resourcePath": "sprites\\city_structure_1_2\\city_structure_1_2.yy",
                 "resourceType": "GMSprite"
             }
         },
