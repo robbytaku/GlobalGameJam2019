@@ -1,9 +1,9 @@
-draw_sprite(sTextbox, 0, 960, 300);
+draw_sprite(sTextbox, 0, 960, 200);
 draw_set_font(fSketch);
-draw_set_color(c_white);
+draw_set_color(make_color_rgb(242,104,104));
 charCount++;
 textPart = string_copy(text[page],1,charCount);
-draw_text_ext(620, 180, textPart, 60, 700);
+draw_text_ext(620, 80, textPart, 60, 700);
 
 if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(4,gp_face1)) and string_length(text[page]) > charCount) alarm[0] = 1;
 if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1) or gamepad_button_check_pressed(4,gp_face1)) and string_length(text[page]) <= charCount)
