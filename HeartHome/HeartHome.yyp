@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "74980a9c-24e7-4a96-8989-d6fd04b64497",
+            "Value": {
+                "id": "ce6e3f5b-7cc0-422e-ae39-466304921790",
+                "resourcePath": "sprites\\fence2\\fence2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74f9c23b-f23f-4a4f-be4d-dbf142023a2c",
             "Value": {
                 "id": "5ca25fde-1006-46ac-a274-e677873fd198",
